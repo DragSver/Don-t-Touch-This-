@@ -5,16 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Dont_touch_this"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="grid">
+        Title="MainWindow">
+    <Grid x:Name="grid" Background="#FFF6EAEA">
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <TextBox IsEnabled = "False" Name = "textbox1" Text = "Нажмите 10 раз за 5 секунд" HorizontalAlignment = "Center" VerticalAlignment = "Center"
-                 FontSize = "20" FontFamily = "Segoe UI Black" TextWrapping = "Wrap" BorderBrush = "{x:Null}" Background = "{x:Null}" />
+        <TextBox IsEnabled = "False" Name = "textbox1" Text = "Нажмите 10 раз за 3 секунды" 
+                 HorizontalAlignment = "Center" VerticalAlignment = "Center" FontSize = "20" 
+                 TextWrapping = "Wrap" BorderBrush = "{x:Null}" Background = "{x:Null}" FontFamily="Segoe UI Black" />
         <Button Content = "10" Grid.Row = "1" Padding = "25,5,25,5"  HorizontalAlignment = "Center" VerticalAlignment = "Center"
-                MinWidth = "25" MinHeight = "60" x:Name = "button" Background = "#FFFFA4A4" BorderBrush = "{x:Null}" FontSize = "50" FontWeight = "Bold" 
-                Click = "Button_Click" />
+        MinWidth = "25" MinHeight = "60" x:Name = "button" Background = "#FFFFA4A4" BorderBrush = "{x:Null}" FontSize = "50" FontWeight = "Bold" 
+        Click = "Button_Click" />
     </Grid>
 </Window>
